@@ -1,8 +1,6 @@
 // Darktop 1.0
 // Hossein Pira
 
-const { ipcMain } = require('electron');
-
 module.exports = [
     {
         label: 'Darktop',

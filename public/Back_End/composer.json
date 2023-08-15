@@ -1,0 +1,5 @@
+{
+    "require": {
+        "darkphp/monster": "^1.0.4"
+    }
+}

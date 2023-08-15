@@ -1,7 +1,7 @@
 // Darktop 1.0
 // Hossein Pira
 
-const { app, BrowserWindow, nativeTheme, ipcMain, Menu, dialog } = require('electron')
+const { app, BrowserWindow, ipcMain, Menu } = require('electron')
 const path = require('path')
 const MainMenuapp = require('./menu-config')
 const RightMenuapp = require('./right-menu-config')
@@ -47,11 +47,6 @@ function loadWebContent() {
 
   //create webContants
   let wc = mainWindow.webContents
-
-  // //suessfull loding page afer dom created
-  // wc.once('did-finish-load', () => {
-  //   mainWindow.loadURL(appConfig['websiteUrl'])
-  // })
 
   wc.once('did-finish-load', () => {
     mainWindow.loadFile(path.join(__dirname, appConfig['websiteUrl']))

@@ -94,7 +94,7 @@ function renderUserMessage(text) {
   userMessage.innerHTML = `
         <div class="flex justify-end items-center w-full">
             <div class="bg-blue-500 rounded-lg px-4 py-2">
-                <p class="text-sm text-white">${sanitizeText(text)}</p>
+                <p dir="auto" class="text-sm text-white">${sanitizeText(text)}</p>
             </div>
             <img class="w-10 h-10 rounded-full ml-3" src="images/user.png" alt="User Avatar">
         </div>
@@ -109,7 +109,7 @@ function renderBotMessage(text) {
   botMessage.innerHTML = `
         <img class="w-10 h-10 rounded-full mr-3" src="images/bot.png" alt="Bot Avatar">
         <div class="bg-gray-200 text-gray-600 rounded-lg px-4 py-2 max-w-xs relative">
-            <p class="text-sm">${sanitizeText(text)}</p>
+            <p dir="auto" class="text-sm">${sanitizeText(text)}</p>
             <button class="bg-white text-gray-600 hover:bg-gray-100 px-2 py-1 rounded-lg text-xs font-medium shadow-md mt-3 sm:mr-3 sm:px-3 sm:py-2" onclick="copyBotMessage(this)">Copy</button>
         </div>
     `;
@@ -188,7 +188,7 @@ deleteButton.addEventListener("click", function () {
 });
 
 // App Version
-var currentVersion = "1.0.0";
+var currentVersion = "1.2.0";
 
 // Function to check for updates
 function checkForUpdates() {
