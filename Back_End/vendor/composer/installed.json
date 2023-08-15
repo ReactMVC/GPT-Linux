@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "darkphp/monster",
+            "version": "1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ReactMVC/HTTPMonster.git",
+                "reference": "f266493dfa8f4351d85c7e064d5e5c0f5a21fe30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ReactMVC/HTTPMonster/zipball/f266493dfa8f4351d85c7e064d5e5c0f5a21fe30",
+                "reference": "f266493dfa8f4351d85c7e064d5e5c0f5a21fe30",
+                "shasum": ""
+            },
+            "time": "2023-07-21T10:15:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DarkPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hossein Pira",
+                    "email": "h3dev.pira@gmail.com"
+                }
+            ],
+            "description": "A simple PHP class for making HTTP requests using cURL",
+            "support": {
+                "issues": "https://github.com/ReactMVC/HTTPMonster/issues",
+                "source": "https://github.com/ReactMVC/HTTPMonster/tree/1.0.4"
+            },
+            "install-path": "../darkphp/monster"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

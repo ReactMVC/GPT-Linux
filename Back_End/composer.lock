@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "35961cbd1208e84a11e5fbb9e9f80933",
+    "packages": [
+        {
+            "name": "darkphp/monster",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ReactMVC/HTTPMonster.git",
+                "reference": "f266493dfa8f4351d85c7e064d5e5c0f5a21fe30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ReactMVC/HTTPMonster/zipball/f266493dfa8f4351d85c7e064d5e5c0f5a21fe30",
+                "reference": "f266493dfa8f4351d85c7e064d5e5c0f5a21fe30",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hossein Pira",
+                    "email": "h3dev.pira@gmail.com"
+                }
+            ],
+            "description": "A simple PHP class for making HTTP requests using cURL",
+            "support": {
+                "issues": "https://github.com/ReactMVC/HTTPMonster/issues",
+                "source": "https://github.com/ReactMVC/HTTPMonster/tree/1.0.4"
+            },
+            "time": "2023-07-21T10:15:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

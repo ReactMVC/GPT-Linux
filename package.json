@@ -1,0 +1,17 @@
+{
+  "name": "gpt-linux",
+  "version": "1.0.0",
+  "description": "Convert Website to Desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Hossein Pira",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.6"
+  },
+  "build": {
+    "icon": "build/icon.png"
+  }
+}
